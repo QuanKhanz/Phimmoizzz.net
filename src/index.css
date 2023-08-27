@@ -1,3 +1,28 @@
+@import @import
+  url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @tailwind base;
 @tailwind components;
+
+@layer base {
+  body {
+    @apply font-barlow text-primary;
+  }
+  h1{
+    @apply text-5xl font-bold
+  }
+  h4 {
+    @apply text-2xl;
+  }
+
+  h3 {
+    @apply text-3xl;
+  }
+}
+@tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply border-2 border-primary px-4 py-2 rounded uppercase text-xl font-semibold cursor-pointer;
+  }
+}
