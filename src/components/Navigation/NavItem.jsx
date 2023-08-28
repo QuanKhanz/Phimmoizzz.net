@@ -1,5 +1,4 @@
-import React from 'react';
-
+/* eslint-disable react/prop-types */
 export default function NavItem({ label, icon, active, onClick }) {
 
     return (

@@ -22,7 +22,7 @@ export default function Nav() {
     return (
         <nav className='col-span-1 bg-cyan-200'>
             <div className='flex mx-4 justify-between items-center md:block'>
-                <h4 className='uppercase font-bold text-primary py-4 border-b border-primary text-right'>Phimmoizzz.net</h4>
+                <h4 className='uppercase font-bold text-primary py-4 md:border-b border-primary text-right'>Phimmoizzz.net</h4>
                 <BiMenu className='cursor-pointer md:hidden' size='1.875rem' onClick={() => setisNavMenuMobile(!isNavMenuMobile)}/>
             </div>
             <ul className={`mx-4 my-2 ${isNavMenuMobile ? '' : 'hidden'} md:block`}>
